@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import TextField from './components/TextField'
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <TextField text='hello' obj2={{firstName: 'John', lastName: 'Smith'}}/>
+    </>
   );
 }
 
